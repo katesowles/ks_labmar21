@@ -45,3 +45,20 @@ it('test that it shows sum AND multiplication of 5, 8, 13'), function () {
 it('test that it shows sum AND multiplication of 14, 15, 3'), function () {
   assert.deepEqual(compute.sumAndMultiply(14,15,3), [32,630]);
 });
+
+//problem four
+it('test that "the array" (3,5,10) returns with a sum of 18'), function () {
+  assert.deepEqual(compute.sumArray(theArray), [18]);
+}
+
+it('test that "the array" (2,7,8) returns with a sum of 17'), function () {
+  assert.deepEqual(compute.sumArray(theArray), [17]);
+}
+
+it('test that "the array" (8,7,10) returns with a sum of 25'), function () {
+  assert.deepEqual(compute.sumArray(theArray), [25]);
+}
+
+// it(''), function () {
+//   assert.deepEqual(), [];
+// }
