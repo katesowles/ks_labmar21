@@ -71,6 +71,9 @@ it('test that theArray (2,7,8) returns with a product of 17'), function () {
 it('test that theArray (8,7,10) returns with a product of 25'), function () {
   assert.deepEqual(compute.multiplyArray(theArray), [560]);
 }
+
+
+
 // it(''), function () {
 //   assert.deepEqual(), [];
 // }
