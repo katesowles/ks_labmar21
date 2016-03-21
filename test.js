@@ -2,7 +2,7 @@
 //write tests first in test.js to make sure they fail
 //APC the test.js file to prove we wrote them first!
 //complete the first six questions in test.js
-//write your coe as functions in compute.js
+//write your code as functions in compute.js
 
 var assert = require('assert');
 var compute = require('compute.js');
