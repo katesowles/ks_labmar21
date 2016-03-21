@@ -47,18 +47,30 @@ it('test that it shows sum AND multiplication of 14, 15, 3'), function () {
 });
 
 //problem four
-it('test that "the array" (3,5,10) returns with a sum of 18'), function () {
+it('test that theArray (3,5,10) returns with a sum of 18'), function () {
   assert.deepEqual(compute.sumArray(theArray), [18]);
 }
 
-it('test that "the array" (2,7,8) returns with a sum of 17'), function () {
+it('test that theArray (2,7,8) returns with a sum of 17'), function () {
   assert.deepEqual(compute.sumArray(theArray), [17]);
 }
 
-it('test that "the array" (8,7,10) returns with a sum of 25'), function () {
+it('test that theArray (8,7,10) returns with a sum of 25'), function () {
   assert.deepEqual(compute.sumArray(theArray), [25]);
 }
 
+//problem five
+it('test that theArray (3,5,10) returns with a product of 18'), function () {
+  assert.deepEqual(compute.multiplyArray(theArray), [150]);
+}
+
+it('test that theArray (2,7,8) returns with a product of 17'), function () {
+  assert.deepEqual(compute.multiplyArray(theArray), [112]);
+}
+
+it('test that theArray (8,7,10) returns with a product of 25'), function () {
+  assert.deepEqual(compute.multiplyArray(theArray), [560]);
+}
 // it(''), function () {
 //   assert.deepEqual(), [];
 // }
